@@ -30,7 +30,7 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
-	annotationProcessor 'org.mapstruct:mapstruct'
+	annotationProcessor 'org.mapstruct:mapstruct:1.4.2.Final'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
